@@ -123,10 +123,45 @@ To assign a role to a client:
 1. In Users we click Role Mapping.
 
 2. Click Assign Role.
-  
+   
 3. Click Assign
 
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/5d300d84-78e9-4bca-9d1f-22d98e6e8d53)
 
+## Realm settings
+Endpoints 
 
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/8a0c0d71-0ff1-4772-805b-e2529c8b665e)
 
+OpenID Endpoint Configuration
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/86573a97-182e-4d36-9cf0-c1a4e403a3f2)
+
+## Get Token
+To get a token in the first time with `grant_type = password`
+
+`http://localhost:8080/realms/wallet-realm/protocol/openid-connect/token`
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/7e8fc98d-29db-4698-945f-3ddd450af488)
+
+Decode JWT token.
+
+To decode JWT token past the `access_token` in `jwt.io` :
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/7ac83cb3-1779-4ea9-a06d-ceae8b55833e)
+
+To get a token with `grant_type = refresh_token`
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/0dba8c24-41c1-4e96-ae5f-30140b510b3c)
+
+Active the client authentication 
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/e3bbdb6d-67d0-4768-969d-87ec9b480799)
+
+Get client secret
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/17329c31-7d18-4878-8b9d-05ba4505c537)
+
+To get a token with `grant_type = client_credentials`
+
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/58e08a61-ab92-4e94-a55d-4e0586d6ff70)
