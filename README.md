@@ -54,7 +54,7 @@ To secure the first application, you start by registering the application with y
 
 1. Click Clients.
 
-2. Click Create client
+2. Click Create client.
 
 3. Fill in the form with the following values:
 
@@ -62,7 +62,7 @@ To secure the first application, you start by registering the application with y
 
     - Client ID: `wallet-client`
 
-    - Click Next
+4. Click Next.
   
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/712a397b-99aa-488e-83f6-cb5e19d446f6)
 
@@ -80,7 +80,7 @@ Initially, the realm has no users. Use these steps to create a user:
 
 2. Click Add user.
 
-3. Fill in the form with the values
+3. Fill in the form with the values.
 
 4. Click Create.
 
@@ -107,13 +107,13 @@ Use these steps to create a role:
 
 2. Click Add role.
    
-3. Fill in the form with the values
+3. Fill in the form with the values.
 
 4. Click Save.
 
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/beb4377b-55ca-4609-8512-6f94a3069b11)
 
-We create two users 
+We create two roles
 
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/11a93d59-cfac-4910-afd7-ecd9e59834db)
 
