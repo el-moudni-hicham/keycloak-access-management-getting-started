@@ -138,21 +138,28 @@ OpenID Endpoint Configuration
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/86573a97-182e-4d36-9cf0-c1a4e403a3f2)
 
 ## Get Token
+
+### Grant type password
+
 To get a token in the first time with `grant_type = password`
 
 `http://localhost:8080/realms/wallet-realm/protocol/openid-connect/token`
 
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/7e8fc98d-29db-4698-945f-3ddd450af488)
 
-Decode JWT token.
+#### Decode JWT token.
 
 To decode JWT token past the `access_token` in `jwt.io` :
 
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/7ac83cb3-1779-4ea9-a06d-ceae8b55833e)
 
+### Grant type refresh_token
+
 To get a token with `grant_type = refresh_token`
 
 ![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/0dba8c24-41c1-4e96-ae5f-30140b510b3c)
+
+### Grant type client_credentials
 
 Active the client authentication 
 
