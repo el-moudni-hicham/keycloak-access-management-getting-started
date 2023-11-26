@@ -26,7 +26,8 @@ Keycloak has no default admin user. You need to create an admin user before you 
 
 2. Fill in the form with your preferred username and password.
 
-![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/b138bc08-4917-4613-9524-88297d0cc855)
+![image](https://github.com/el-moudni-hicham/keycloak-access-management-getting-started/assets/85403056/8d337416-c9cf-46dc-84bc-38d0a3562320)
+
 
 ## Log in to the Admin Console
 1. Go to the Keycloak Admin Console.
